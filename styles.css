@@ -1,0 +1,173 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    
+}
+ h2 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0d366c;
+ }
+
+header {
+    text-align: center;
+    background-color: #0d366c;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #333;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+li {
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Specific styles for different sections here */
+#summary {
+    background-color: #f7f7f7;
+}
+
+#education {
+    background-color: #f7f7f7;
+}
+
+#experience {
+    background-color: #f7f7f7;
+}
+
+#projects {
+    background-color: #f7f7f7;
+}
+
+#skills {
+    background-color: #f7f7f7;
+}
+
+#interests {
+    background-color: #f7f7f7;
+}
+
+#languages {
+    background-color: #f7f7f7;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    li {
+        margin: 10px 0;
+    }
+
+    section {
+        margin-top: 10px;
+    }
+}
+
+
+/* Style for tables in education and experience sections */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    li {
+        margin: 10px 0;
+    }
+
+    section {
+        margin-top: 10px;
+    }
+}
+
+/* Style for hyperlinks */
+a {
+    text-decoration: none; /* Remove underline from links */
+    color: #3498db; /* Set link color */
+    font-weight: bold; /* Make the text bold */
+    transition: color 0.3s; /* Add a smooth color transition on hover */
+}
+
+a:hover {
+    color: #90cff9; /* Change color on hover */
+}
+
+
+/* Style for the background image element */
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url('https://www.freepnglogos.com/uploads/blueberries-png/blueberries-blueberry-sch-boden-spies-7.png');
+    background-repeat: repeat;
+    background-size: auto; /* Set the desired width and height */
+    filter: blur(5px); /* Adjust the blur radius as needed */
+}
+
